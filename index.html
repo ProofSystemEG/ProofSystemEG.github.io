@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Proof System | برامج إدارة العيادات والصيدليات والمعامل والمحاسبة</title>
+<meta name="description" content="Proof System: برامج عربية احترافية للعيادات وعيادات الأسنان والصيدليات ومعامل التحاليل ومراكز الأشعة والمحاسبة والمخازن. شراء مرة واحدة بدون اشتراك شهري. مصر والسعودية.">
+<meta property="og:title" content="Proof System">
+<meta property="og:description" content="برامج عربية احترافية للقطاع الطبي والمحاسبة والمخازن - شراء مرة واحدة بدون اشتراك شهري">
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* layout: dark navy product site, teal accent, cards grid, RTL */
+:root{--bg:#0A0F2E;--bg2:#0E1650;--line:#2F3B94;--fg:#E8ECFA;--mut:#A3AED6;--acc:#14B8A6;--acc2:#2DD4BF;--warm:#F59E0B;
+--disp:'Cairo','Segoe UI',Tahoma,sans-serif;--body:'IBM Plex Sans Arabic','Segoe UI',Tahoma,sans-serif;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.75}
+a{color:inherit}.wrap{max-width:1140px;margin:0 auto;padding-inline:max(18px,env(safe-area-inset-left,0px))}
+header{position:sticky;top:0;z-index:5;background:rgba(10,15,46,.92);backdrop-filter:blur(8px);border-bottom:1px solid #1b2566}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:12px}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:800;font-size:20px;text-decoration:none;letter-spacing:.5px}
+.logo i{width:34px;height:34px;border-radius:50%;background:var(--acc);display:grid;place-items:center;font-style:normal;color:#06202a;font-size:18px}
+.nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;flex-wrap:wrap}.nav ul a{text-decoration:none;color:var(--mut);font-weight:500}.nav ul a:hover{color:var(--fg)}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--acc);color:#05201c;font-family:var(--disp);font-weight:700;padding:12px 22px;border-radius:999px;text-decoration:none;border:0;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--fg);border:1px solid var(--line)}.btn:hover{filter:brightness(1.08)}
+.hero{padding-block:72px 56px;background:radial-gradient(900px 400px at 85% 0%,rgba(20,184,166,.18),transparent 60%),radial-gradient(700px 380px at 0% 100%,rgba(99,102,241,.16),transparent 60%)}
+.hero h1{font-family:var(--disp);font-size:clamp(32px,5.2vw,58px);line-height:1.2;margin:0 0 18px;text-wrap:balance}
+.hero h1 span{color:var(--acc2)}.hero p{color:var(--mut);font-size:clamp(16px,2vw,19px);max-width:640px;margin:0 0 28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:44px}
+.fact{border:1px solid #1d2876;border-radius:14px;padding:14px 16px;background:rgba(14,22,80,.55)}.fact b{display:block;font-family:var(--disp);font-size:22px;color:var(--acc2)}.fact small{color:var(--mut)}
+section{padding-block:64px}h2{font-family:var(--disp);font-size:clamp(26px,3.4vw,38px);margin:0 0 10px}.lead{color:var(--mut);margin:0 0 30px;max-width:680px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.card{background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.card h3{font-family:var(--disp);margin:0;font-size:20px}.card .tag{font-size:12px;color:var(--acc2);letter-spacing:.3px}
+.card ul{margin:4px 0 0;padding-inline-start:18px;color:var(--mut);font-size:14.5px}.card .ico{font-size:28px}
+.alt{background:#0C1340;border-block:1px solid #18226a}
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.why div{padding:6px 0}.why h4{font-family:var(--disp);margin:0 0 4px;font-size:18px}.why p{margin:0;color:var(--mut);font-size:15px}
+.tabs{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:4px;margin-bottom:18px}.tabs button{background:none;border:0;color:var(--mut);font-family:var(--disp);font-weight:700;padding:8px 20px;border-radius:999px;cursor:pointer}.tabs button.on{background:var(--acc);color:#05201c}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:14px}table{width:100%;border-collapse:collapse;min-width:520px;font-variant-numeric:tabular-nums}
+th,td{padding:14px 16px;text-align:start;border-bottom:1px solid #1b2566}th{background:#111a5a;font-family:var(--disp)}tr:last-child td{border-bottom:0}td.p{font-family:var(--disp);font-weight:700;color:var(--acc2);white-space:nowrap}
+.note{color:var(--mut);font-size:14px;margin-top:14px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;counter-reset:s}.steps div{border:1px solid var(--line);border-radius:14px;padding:18px;background:var(--bg2);counter-increment:s}
+.steps div::before{content:counter(s);display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--acc);color:#05201c;font-family:var(--disp);font-weight:800;margin-bottom:8px}
+.steps b{display:block;font-family:var(--disp)}.steps span{color:var(--mut);font-size:14.5px}
+.contact{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.contact .card{align-items:flex-start}.num{direction:ltr;font-family:var(--disp);font-size:20px;font-weight:700}
+footer{border-top:1px solid #18226a;padding-block:26px;color:var(--mut);font-size:14px}footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.wa{position:fixed;bottom:calc(18px + env(safe-area-inset-bottom,0px));left:18px;background:#25D366;color:#063;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.35);z-index:9;text-decoration:none;font-size:28px}
+@media (max-width:860px){.facts,.steps{grid-template-columns:repeat(2,1fr)}.why,.contact{grid-template-columns:1fr}.nav ul{display:none}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+a:focus-visible,button:focus-visible{outline:2px solid var(--acc2);outline-offset:3px}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="logo" href="#"><i>P</i>Proof System</a>
+<ul><li><a href="#programs">البرامج</a></li><li><a href="#why">ليه Proof</a></li><li><a href="#prices">الأسعار</a></li><li><a href="#download">التحميل</a></li><li><a href="#buy">طريقة الشراء</a></li><li><a href="#contact">تواصل معنا</a></li></ul>
+<a class="btn" href="https://wa.me/966553785927?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D9%86%D8%B3%D8%AE%D8%A9%20%D8%AA%D8%AC%D8%B1%D9%8A%D8%A8%D9%8A%D8%A9%20%D9%85%D9%86%20Proof%20System" target="_blank" rel="noopener">جرّب مجاناً</a>
+</div></header>
+
+<main>
+<div class="hero"><div class="wrap">
+<h1>برامج تدير شغلك كله<br><span>من غير اشتراك شهري</span></h1>
+<p>Proof System مجموعة برامج عربية احترافية للعيادات وعيادات الأسنان والصيدليات ومعامل التحاليل ومراكز الأشعة والمحاسبة والمخازن. بتشتغل على جهازك وشبكتك، وبياناتك عندك أنت.</p>
+<div class="cta"><a class="btn" href="#programs">شوف البرامج</a><a class="btn ghost" href="#prices">الأسعار</a></div>
+<div class="facts">
+<div class="fact"><b>7</b><small>برامج متخصصة</small></div>
+<div class="fact"><b>14 يوم</b><small>نسخة تجريبية مجانية</small></div>
+<div class="fact"><b>مرة واحدة</b><small>تدفع وتمتلك البرنامج</small></div>
+<div class="fact"><b>🇪🇬 🇸🇦</b><small>مصر والسعودية</small></div>
+</div></div></div>
+
+<section id="programs"><div class="wrap">
+<h2>البرامج</h2><p class="lead">كل برنامج معمول لنشاطه بالتفصيل، وبنفس التصميم وسهولة الاستخدام.</p>
+<div class="grid">
+<div class="card"><div class="ico">🩺</div><span class="tag">Proof Clinic</span><h3>إدارة العيادات</h3><ul><li>حجز المواعيد وقائمة الانتظار</li><li>الكشف والتشخيص والروشتة المطبوعة</li><li>الفواتير وإيراد اليوم</li></ul></div>
+<div class="card"><div class="ico">🦷</div><span class="tag">Proof Dental</span><h3>عيادات الأسنان</h3><ul><li>خريطة أسنان لكل مريض</li><li>خطة علاج وجلسات وتقسيط</li><li>متابعة شغل معمل الأسنان</li></ul></div>
+<div class="card"><div class="ico">💊</div><span class="tag">Proof Pharmacy</span><h3>الصيدليات</h3><ul><li>أكتر من 26 ألف صنف جاهز في الكتالوج</li><li>بيع بالباركود وملصقات بالجرعة والصلاحية</li><li>تنبيهات الصلاحية والنواقص والورديات</li></ul></div>
+<div class="card"><div class="ico">🧪</div><span class="tag">Proof Lab</span><h3>معامل التحاليل</h3><ul><li>باركود لكل عينة وقائمة شغل</li><li>مراجعة واعتماد النتائج</li><li>تقرير بـ QR يتأكد منه المريض</li></ul></div>
+<div class="card"><div class="ico">🩻</div><span class="tag">Proof Radiology</span><h3>مراكز الأشعة</h3><ul><li>الاستقبال وقائمة شغل الفنيين</li><li>قوالب تقارير جاهزة للطبيب</li><li>طباعة وتسليم التقارير</li></ul></div>
+<div class="card"><div class="ico">📊</div><span class="tag">Proof Accounting</span><h3>المحاسبة</h3><ul><li>فواتير وسندات وقيود يومية</li><li>ميزان مراجعة وقائمة دخل وميزانية</li><li>ضريبة القيمة المضافة مصر والسعودية + QR</li></ul></div>
+<div class="card"><div class="ico">📦</div><span class="tag">Proof Inventory</span><h3>إدارة المخازن</h3><ul><li>مخازن متعددة وأماكن رفوف وباركود</li><li>تشغيلات وصلاحية وسيريالات</li><li>جرد بتسوية تلقائية وأوامر بموافقات</li></ul></div>
+</div></div></section>
+
+<section id="why" class="alt"><div class="wrap">
+<h2>ليه Proof System؟</h2><p class="lead">اتعمل لأصحاب الشغل في مصر والسعودية، باللغة والطريقة اللي بيشتغلوا بيها.</p>
+<div class="why">
+<div><h4>تدفع مرة واحدة</h4><p>من غير اشتراك شهري يزيد كل سنة. البرنامج ملكك.</p></div>
+<div><h4>بياناتك عندك</h4><p>بيشتغل على جهازك وشبكة المكان بقاعدة بيانات SQL Server، ومش محتاج إنترنت علشان يشتغل.</p></div>
+<div><h4>عربي بالكامل</h4><p>شاشات وتقارير ورسايل بالعربي، وأي غلطة بتظهر برسالة واضحة.</p></div>
+<div><h4>أكتر من جهاز</h4><p>جهاز سيرفر وأجهزة فرعية على نفس الشبكة، وكل موظف بصلاحياته.</p></div>
+<div><h4>خصوصية الأرقام</h4><p>الإيرادات والتكاليف بتظهر للمدير والمحاسب بس.</p></div>
+<div><h4>تثبيت ودعم</h4><p>مثبّت بيجهّز كل حاجة لوحده، ودعم فني أونلاين عن بُعد.</p></div>
+</div></div></section>
+
+<section id="prices"><div class="wrap">
+<h2>الأسعار</h2><p class="lead">سعر نسخة كاملة لجهاز واحد، شراء مرة واحدة. كل جهاز فرعي إضافي بسعر رمزي.</p>
+<div class="tabs" role="tablist"><button id="tEG" class="on" type="button">🇪🇬 مصر (جنيه)</button><button id="tSA" type="button">🇸🇦 السعودية (ريال)</button></div>
+<div class="tbl"><table><thead><tr><th>البرنامج</th><th>السعر يبدأ من</th><th>جهاز إضافي</th></tr></thead><tbody id="pt"></tbody></table></div>
+<p class="note">الأسعار للنسخة الكاملة بدون اشتراك. الدعم والتحديثات السنوية اختيارية. النسخة التجريبية مجانية 14 يوم. اسألنا على عروض الباقات (أكتر من برنامج).</p>
+</div></section>
+
+<section id="download"><div class="wrap">
+<h2>حمّل النسخة التجريبية</h2><p class="lead">كل برنامج له مثبّت بيجهّز كل حاجة لوحده: قاعدة البيانات والتشغيل والاختصارات. محتاج ويندوز 10 أو 11 (64 بت). النسخة التجريبية كاملة لمدة 14 يوم.</p>
+<div class="grid">
+<div class="card"><h3>🩺 العيادة</h3><a class="btn" href="https://github.com/ProofSystemEG/ProofSystemEG.github.io/releases/latest" target="_blank" rel="noopener">تحميل</a></div>
+<div class="card"><h3>🦷 الأسنان</h3><a class="btn" href="https://github.com/ProofSystemEG/ProofSystemEG.github.io/releases/latest" target="_blank" rel="noopener">تحميل</a></div>
+<div class="card"><h3>💊 الصيدلية</h3><a class="btn" href="https://github.com/ProofSystemEG/ProofSystemEG.github.io/releases/latest" target="_blank" rel="noopener">تحميل</a></div>
+<div class="card"><h3>🧪 المعمل</h3><a class="btn" href="https://github.com/ProofSystemEG/ProofSystemEG.github.io/releases/latest" target="_blank" rel="noopener">تحميل</a></div>
+<div class="card"><h3>🩻 الأشعة</h3><a class="btn" href="https://github.com/ProofSystemEG/ProofSystemEG.github.io/releases/latest" target="_blank" rel="noopener">تحميل</a></div>
+<div class="card"><h3>📊 المحاسبة</h3><a class="btn" href="https://github.com/ProofSystemEG/ProofSystemEG.github.io/releases/latest" target="_blank" rel="noopener">تحميل</a></div>
+<div class="card"><h3>📦 المخازن</h3><a class="btn" href="https://github.com/ProofSystemEG/ProofSystemEG.github.io/releases/latest" target="_blank" rel="noopener">تحميل</a></div>
+</div>
+<p class="note">حجم كل مثبّت حوالي 1.3 جيجا لأنه بيشمل SQL Server و Access Runtime. شغّله كمسؤول (Run as administrator). محتاج مساعدة؟ كلّمنا واتساب.</p>
+</div></section>
+
+<section id="buy" class="alt"><div class="wrap">
+<h2>طريقة الشراء</h2><p class="lead">من أول رسالة لحد ما البرنامج يشتغل عندك.</p>
+<div class="steps">
+<div><b>اطلب نسخة تجريبية</b><span>ابعتلنا واتساب واسم نشاطك.</span></div>
+<div><b>جرّب 14 يوم</b><span>بكل المميزات وبياناتك الحقيقية.</span></div>
+<div><b>فعّل النسخة الكاملة</b><span>بتبعتلنا كود الجهاز وبنبعتلك الترخيص.</span></div>
+<div><b>دعم وتدريب</b><span>نساعدك في التثبيت والتشغيل أونلاين.</span></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap">
+<h2>تواصل معنا</h2><p class="lead">رد سريع على الواتساب.</p>
+<div class="contact">
+<div class="card"><span class="tag">مصر</span><h3>واتساب</h3><div class="num">01018167885</div><a class="btn" href="https://wa.me/201018167885" target="_blank" rel="noopener">راسلنا</a></div>
+<div class="card"><span class="tag">السعودية</span><h3>واتساب</h3><div class="num">0553785927</div><a class="btn" href="https://wa.me/966553785927" target="_blank" rel="noopener">راسلنا</a></div>
+<div class="card"><span class="tag">فيسبوك</span><h3>Proof System</h3><div class="num">@ProofSystemEG</div><a class="btn ghost" href="https://www.facebook.com/ProofSystemEG" target="_blank" rel="noopener">تابع الصفحة</a></div>
+</div></div></section>
+</main>
+
+<footer><div class="wrap"><span>© <span id="yr">2026</span> Proof System - Dr. Ebrahim Elsheikh. كل الحقوق محفوظة.</span><span>برامج العيادات · الأسنان · الصيدليات · المعامل · الأشعة · المحاسبة · المخازن</span></div></footer>
+<a class="wa" href="https://wa.me/966553785927" target="_blank" rel="noopener" aria-label="واتساب">✆</a>
+
+<script>
+var P={EG:[["العيادة","8,000 جنيه","1,500"],["الأسنان","10,000 جنيه","1,500"],["الصيدلية","7,000 جنيه","1,500"],["المعمل","15,000 جنيه","2,000"],["الأشعة","20,000 جنيه","2,000"],["المحاسبة","6,000 جنيه","1,000"],["المخازن","6,000 جنيه","1,000"],["المحاسبة + المخازن","10,000 جنيه","1,500"]],
+SA:[["العيادة","1,500 ريال","300"],["الأسنان","2,000 ريال","300"],["الصيدلية","1,500 ريال","300"],["المعمل","3,000 ريال","400"],["الأشعة","4,000 ريال","400"],["المحاسبة","1,200 ريال","200"],["المخازن","1,200 ريال","200"],["المحاسبة + المخازن","2,000 ريال","300"]]};
+function show(k){document.getElementById('pt').innerHTML=P[k].map(function(r){return '<tr><td>'+r[0]+'</td><td class="p">'+r[1]+'</td><td>'+r[2]+'</td></tr>'}).join('');
+document.getElementById('tEG').className=k==='EG'?'on':'';document.getElementById('tSA').className=k==='SA'?'on':''}
+document.getElementById('tEG').onclick=function(){show('EG')};document.getElementById('tSA').onclick=function(){show('SA')};
+show('EG');document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
